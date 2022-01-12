@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--Webpage title-->
+    <title>
+        Non-MVC App
+    </title>
+
+    <!--links for bootstrap, css, and the icon-->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+
+    <!--website icon-->
+    <link rel="icon" href="img/8726089_mountains_ic_ufwEu.ico">
+
+</head>
+<body>
+    <!--header with my preferred name-->
+
+    <h1>Brooklyn Fitzgerald</h1>
+
+    <!--Image of me doing something I love-->
+
+    <img src="img/dixie rock climb3.jpg" />
+
+    <!--Paragraph of expectations for IS 413-->
+
+    <p>I am excited to create an asthetically pleasing web application. I look forward to implementing libraries, incorporating databases, and interacting with APIs.</p>
+
+    <!--List of potential jobs-->
+    <ul>
+        <li>Data Analyst</li>
+        <li>Web Developer</li>
+        <li>Consultant</li>
+    </ul>
+
+    <!-- Grade Calculator Form-->
+
+    <h2>Grade Calculator</h2>
+    <form>
+        <label>Assignments :</label>
+        <input id="assignments" type="number" min="0" max="55" path="note" value="0" /> % <br />
+
+        <label> Group Project :</label>
+        <input id="group_project" type="number" min="0" max="5" path="note" value="0" /> % <br />
+
+        <label>Quizzes :</label>
+        <input id="quizzes" type="number" min="0" max="10" path="note" value="0"/> % <br />
+
+        <label>Exams :</label>
+        <input id="exams" type="number" min="0" max="20" path="note" value="0"/> %<br />
+
+        <label>INTEX :</label>
+        <input id="intex" type="number" min="0" max="10" path="note" value="0"/> %<br />
+
+        <input id="btnsend" type="button" value="Calculate" />
+    </form>
+
+    <!--src for bootstrap, jquery, and javascript-->
+
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/calculator.js"></script>
+
+</body>
+</html>
